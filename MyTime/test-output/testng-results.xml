@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-14T13:08:03Z" name="Default suite" finished-at="2021-07-14T13:08:20Z" duration-ms="17059">
+    <groups>
+    </groups>
+    <test started-at="2021-07-14T13:08:03Z" name="Default test" finished-at="2021-07-14T13:08:20Z" duration-ms="17059">
+      <class name="com.mytime.tests.BookSlots">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mytime.tests.BookSlots@383bfa16]" started-at="2021-07-14T09:08:03Z" name="setup" finished-at="2021-07-14T09:08:06Z" duration-ms="3027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAtleastThreeSearchResults()[pri:1, instance:com.mytime.tests.BookSlots@383bfa16]" started-at="2021-07-14T09:08:06Z" name="verifyAtleastThreeSearchResults" finished-at="2021-07-14T09:08:10Z" duration-ms="4172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAtleastThreeSearchResults -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.mytime.tests.BookSlots@383bfa16]" started-at="2021-07-14T09:08:10Z" name="getResult" finished-at="2021-07-14T09:08:10Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAtleastThreeSearchResults status=SUCCESS method=BookSlots.verifyAtleastThreeSearchResults()[pri:1, instance:com.mytime.tests.BookSlots@383bfa16] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifilterResults()[pri:2, instance:com.mytime.tests.BookSlots@383bfa16]" started-at="2021-07-14T09:08:10Z" name="verifilterResults" finished-at="2021-07-14T09:08:19Z" duration-ms="9347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifilterResults -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.mytime.tests.BookSlots@383bfa16]" started-at="2021-07-14T09:08:19Z" name="getResult" finished-at="2021-07-14T09:08:19Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifilterResults status=SUCCESS method=BookSlots.verifilterResults()[pri:2, instance:com.mytime.tests.BookSlots@383bfa16] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytime.tests.BookSlots@383bfa16]" started-at="2021-07-14T09:08:19Z" name="tearDown" finished-at="2021-07-14T09:08:20Z" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mytime.tests.BookSlots -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
